@@ -4,8 +4,8 @@
     {
       "name": "vite:load-fallback",
       "result": "export const HOOK_SETUP = 'devtools-plugin:setup';\nexport const HOOK_PLUGIN_SETTINGS_SET = 'plugin:settings:set';\n",
-      "start": 1683297603909,
-      "end": 1683297604549
+      "start": 1683377255056,
+      "end": 1683377255189
     }
   ]
 }

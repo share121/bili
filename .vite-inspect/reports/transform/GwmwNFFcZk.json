@@ -4,8 +4,8 @@
     {
       "name": "vite:load-fallback",
       "result": "export * from './api.js';\nexport * from './app.js';\nexport * from './component.js';\nexport * from './context.js';\nexport * from './hooks.js';\nexport * from './util.js';\n",
-      "start": 1683297603909,
-      "end": 1683297604550
+      "start": 1683377255056,
+      "end": 1683377255206
     }
   ]
 }

@@ -4,21 +4,21 @@
     {
       "name": "vite:load-fallback",
       "result": "import { createRouter, createWebHashHistory } from 'vue-router'\nimport HomeView from '../views/HomeView.vue'\nimport NotFound from '../views/NotFound.vue'\n\nconst router = createRouter({\n  history: createWebHashHistory(import.meta.env.BASE_URL),\n  routes: [\n    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },\n    {\n      path: '/',\n      name: 'home',\n      alias: '/home',\n      component: HomeView\n    }\n  ]\n})\n\nexport default router\n",
-      "start": 1683297603710,
-      "end": 1683297603716
+      "start": 1683377254536,
+      "end": 1683377254553
     },
     {
       "name": "vite:esbuild",
       "result": "import { createRouter, createWebHashHistory } from \"vue-router\";\nimport HomeView from \"../views/HomeView.vue\";\nimport NotFound from \"../views/NotFound.vue\";\nconst router = createRouter({\n  history: createWebHashHistory(import.meta.env.BASE_URL),\n  routes: [\n    { path: \"/:pathMatch(.*)*\", name: \"NotFound\", component: NotFound },\n    {\n      path: \"/\",\n      name: \"home\",\n      alias: \"/home\",\n      component: HomeView\n    }\n  ]\n});\nexport default router;\n",
-      "start": 1683297603716,
-      "end": 1683297603810,
+      "start": 1683377254553,
+      "end": 1683377254639,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "import { createRouter, createWebHashHistory } from \"vue-router\";\nimport HomeView from \"../views/HomeView.vue\";\nimport NotFound from \"../views/NotFound.vue\";\nconst router = createRouter({\n  history: createWebHashHistory(\"/\"),\n  routes: [\n    { path: \"/:pathMatch(.*)*\", name: \"NotFound\", component: NotFound },\n    {\n      path: \"/\",\n      name: \"home\",\n      alias: \"/home\",\n      component: HomeView\n    }\n  ]\n});\nexport default router;\n",
-      "start": 1683297603810,
-      "end": 1683297603810,
+      "start": 1683377254640,
+      "end": 1683377254640,
       "order": "normal"
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "resolvedId": "D:/code/bili/src/components/MerText.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\n\nimport gsap from 'gsap'\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'MerText',\n  props: {\n    content: { default: '' }\n  },\n  setup(__props: any) {\n\nconst props = __props as { content: string };\n\n\nconst text = computed(() => [...props.content])\nconst spans: Ref<HTMLSpanElement[]> = ref([])\nonMounted(async () => {\n  gsap.from(spans.value, {\n    duration: 2,\n    stagger: 0.05,\n    x: 30,\n    y: 25,\n    opacity: 0,\n    ease: 'back.inOut(5)'\n  })\n})\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(text), (i) => {\n    return (_openBlock(), _createElementBlock(\"span\", {\n      class: \"inline-block\",\n      ref_for: true,\n      ref_key: \"spans\",\n      ref: spans\n    }, _toDisplayString(i), 513))\n  }), 256))\n}\n}\n\n})",
+      "start": 1683297604733,
+      "end": 1683297604733
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\";\nimport gsap from \"gsap\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MerText\",\n  props: {\n    content: { default: \"\" }\n  },\n  setup(__props) {\n    const props = __props;\n    const text = computed(() => [...props.content]);\n    const spans = ref([]);\n    onMounted(async () => {\n      gsap.from(spans.value, {\n        duration: 2,\n        stagger: 0.05,\n        x: 30,\n        y: 25,\n        opacity: 0,\n        ease: \"back.inOut(5)\"\n      });\n    });\n    return (_ctx, _cache) => {\n      return _openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(text), (i) => {\n        return _openBlock(), _createElementBlock(\"span\", {\n          class: \"inline-block\",\n          ref_for: true,\n          ref_key: \"spans\",\n          ref: spans\n        }, _toDisplayString(i), 513);\n      }), 256);\n    };\n  }\n});\n",
+      "start": 1683297604733,
+      "end": 1683297604822,
+      "order": "normal"
+    },
+    {
+      "name": "unplugin-auto-import",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\";\nimport gsap from \"gsap\";\n\nimport { computed, ref, onMounted } from 'vue';\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MerText\",\n  props: {\n    content: { default: \"\" }\n  },\n  setup(__props) {\n    const props = __props;\n    const text = computed(() => [...props.content]);\n    const spans = ref([]);\n    onMounted(async () => {\n      gsap.from(spans.value, {\n        duration: 2,\n        stagger: 0.05,\n        x: 30,\n        y: 25,\n        opacity: 0,\n        ease: \"back.inOut(5)\"\n      });\n    });\n    return (_ctx, _cache) => {\n      return _openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(text), (i) => {\n        return _openBlock(), _createElementBlock(\"span\", {\n          class: \"inline-block\",\n          ref_for: true,\n          ref_key: \"spans\",\n          ref: spans\n        }, _toDisplayString(i), 513);\n      }), 256);\n    };\n  }\n});\n",
+      "start": 1683297604822,
+      "end": 1683297604823,
+      "order": "post"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\";\nimport gsap from \"gsap\";\n\nimport { computed, ref, onMounted } from 'vue';\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MerText\",\n  props: {\n    content: { default: \"\" }\n  },\n  setup(__props) {\n    const props = __props;\n    const text = computed(() => [...props.content]);\n    const spans = ref([]);\n    onMounted(async () => {\n      gsap.from(spans.value, {\n        duration: 2,\n        stagger: 0.05,\n        x: 30,\n        y: 25,\n        opacity: 0,\n        ease: \"back.inOut(5)\"\n      });\n    });\n    return (_ctx, _cache) => {\n      return _openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(text), (i) => {\n        return _openBlock(), _createElementBlock(\"span\", {\n          class: \"inline-block\",\n          ref_for: true,\n          ref_key: \"spans\",\n          ref: spans\n        }, _toDisplayString(i), 513);\n      }), 256);\n    };\n  }\n});\n",
+      "start": 1683297604823,
+      "end": 1683297604823,
+      "order": "post"
+    }
+  ]
+}

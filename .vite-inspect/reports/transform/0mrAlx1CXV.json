@@ -1,0 +1,32 @@
+{
+  "resolvedId": "D:/code/bili/src/App.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveDynamicComponent as _resolveDynamicComponent, openBlock as _openBlock, createBlock as _createBlock, Transition as _Transition, withCtx as _withCtx, createVNode as _createVNode, resolveComponent as _resolveComponent } from \"vue\"\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'App',\n  setup(__props) {\n\r\nuseDark()\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_router_view = _resolveComponent(\"router-view\")!\n\n  return (_openBlock(), _createBlock(_component_router_view, null, {\n    default: _withCtx(({ Component, route }) => [\n      _createVNode(_Transition, {\n        name: (route.meta.transition as string | undefined) ?? 'fade'\n      }, {\n        default: _withCtx(() => [\n          (_openBlock(), _createBlock(_resolveDynamicComponent(Component), {\n            key: route.path\n          }))\n        ]),\n        _: 2\n      }, 1032, [\"name\"])\n    ]),\n    _: 1\n  }))\n}\n}\n\n})",
+      "start": 1683297603823,
+      "end": 1683297603823
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveDynamicComponent as _resolveDynamicComponent, openBlock as _openBlock, createBlock as _createBlock, Transition as _Transition, withCtx as _withCtx, createVNode as _createVNode, resolveComponent as _resolveComponent } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"App\",\n  setup(__props) {\n    useDark();\n    return (_ctx, _cache) => {\n      const _component_router_view = _resolveComponent(\"router-view\");\n      return _openBlock(), _createBlock(_component_router_view, null, {\n        default: _withCtx(({ Component, route }) => [\n          _createVNode(_Transition, {\n            name: route.meta.transition ?? \"fade\"\n          }, {\n            default: _withCtx(() => [\n              (_openBlock(), _createBlock(_resolveDynamicComponent(Component), {\n                key: route.path\n              }))\n            ]),\n            _: 2\n          }, 1032, [\"name\"])\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1683297603823,
+      "end": 1683297603896,
+      "order": "normal"
+    },
+    {
+      "name": "unplugin-auto-import",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveDynamicComponent as _resolveDynamicComponent, openBlock as _openBlock, createBlock as _createBlock, Transition as _Transition, withCtx as _withCtx, createVNode as _createVNode, resolveComponent as _resolveComponent } from \"vue\";\n\nimport { useDark } from '@vueuse/core';\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"App\",\n  setup(__props) {\n    useDark();\n    return (_ctx, _cache) => {\n      const _component_router_view = _resolveComponent(\"router-view\");\n      return _openBlock(), _createBlock(_component_router_view, null, {\n        default: _withCtx(({ Component, route }) => [\n          _createVNode(_Transition, {\n            name: route.meta.transition ?? \"fade\"\n          }, {\n            default: _withCtx(() => [\n              (_openBlock(), _createBlock(_resolveDynamicComponent(Component), {\n                key: route.path\n              }))\n            ]),\n            _: 2\n          }, 1032, [\"name\"])\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1683297603896,
+      "end": 1683297603899,
+      "order": "post"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveDynamicComponent as _resolveDynamicComponent, openBlock as _openBlock, createBlock as _createBlock, Transition as _Transition, withCtx as _withCtx, createVNode as _createVNode, resolveComponent as _resolveComponent } from \"vue\";\n\nimport { useDark } from '@vueuse/core';\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"App\",\n  setup(__props) {\n    useDark();\n    return (_ctx, _cache) => {\n      const _component_router_view = _resolveComponent(\"router-view\");\n      return _openBlock(), _createBlock(_component_router_view, null, {\n        default: _withCtx(({ Component, route }) => [\n          _createVNode(_Transition, {\n            name: route.meta.transition ?? \"fade\"\n          }, {\n            default: _withCtx(() => [\n              (_openBlock(), _createBlock(_resolveDynamicComponent(Component), {\n                key: route.path\n              }))\n            ]),\n            _: 2\n          }, 1032, [\"name\"])\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1683297603899,
+      "end": 1683297603901,
+      "order": "post"
+    }
+  ]
+}

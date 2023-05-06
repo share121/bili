@@ -1,0 +1,18 @@
+{
+  "resolvedId": "D:/code/bili/index.html",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Tauri + Vue + TS</title>\r\n  </head>\r\n\r\n  <body>\r\n    <div id=\"app\"></div>\r\n    <script type=\"module\" src=\"/src/main.ts\"></script>\r\n  </body>\r\n</html>\r\n",
+      "start": 1683297602826,
+      "end": 1683297602842
+    },
+    {
+      "name": "vite:build-html",
+      "result": "import \"vite/modulepreload-polyfill\";\n\nimport \"/src/main.ts\"",
+      "start": 1683297602844,
+      "end": 1683297602862,
+      "order": "normal"
+    }
+  ]
+}

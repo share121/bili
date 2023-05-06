@@ -1,0 +1,11 @@
+{
+  "resolvedId": "D:/code/bili/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export {};\n",
+      "start": 1683297604552,
+      "end": 1683297604700
+    }
+  ]
+}
